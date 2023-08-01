@@ -1,0 +1,49 @@
+/* Background Image and Text Styling */
+
+/* rgb(239, 222, 205) */
+
+body {
+    background-color: rgb(197, 183, 168);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Main Styling */
+
+#main_profile_pic {
+    border-radius: 50px;
+    border: rgb(67, 94, 38) solid 2px;
+}
+
+hr {
+    border: 1px solid black;
+    width: 100%;
+}
+
+/* Portfolio Page Styling */
+
+.portfolio_images {
+    border-radius: 10px;
+    border: rgb(67, 94, 38) solid 5px;
+}
+
+.img_hover:hover {
+    opacity: .5;
+}
+
+/* Footer Styles */
+
+footer {
+    padding: 1em 0 1em 0;
+}
+
+.foot_links {
+    text-decoration: none;
+    color: black;
+}
+
+.foot_links:hover {
+    text-decoration: none;
+    color: rgb(67, 94, 38);
+}
+
